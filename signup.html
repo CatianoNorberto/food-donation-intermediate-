@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/styles.responsive.css">
+</head>
+
+<body>
+  <div class="signup-container">
+    <img src="https://cdn.shopify.com/s/files/1/1543/7379/articles/friendship_day_1600x.png?v=1564389324" alt="">
+
+    <div class="formContainer">
+      <h2>Cadastro</h2>
+      <form id="signup-form">
+        <div class="formGroup">
+          <label for="name">
+            Nome*:
+            <input name="name" id="name" placeholder="Digite seu nome" required>
+          </label>
+          <label for="name">
+            Email*:
+            <input type="email" name="email" id="email" placeholder="Digite seu email" required>
+          </label>
+        </div>
+        <div class="formGroup">
+          <label for="name">
+            Número de telefone*:
+            <input type="number" name="phone" id="phone" placeholder="Digite seu número" required>
+          </label>
+          <label for="zipCode">
+            Cep*:
+            <input name="zipCode" id="zipCode" placeholder="Digite seu Cep" required>
+          </label>
+        </div>
+        <div class="formGroup">
+          <label for="street">
+            Rua*:
+            <input name="street" id="street" placeholder="Nome da rua" required>
+          </label>
+          <label for="district">
+            Bairro*:
+            <input name="district" id="district" placeholder="Nome do bairro" required>
+          </label>
+        </div>
+        <div class="formGroup">
+          <label for="city">
+            Cidade*:
+            <input name="city" id="city" placeholder="Nome da cidade" required>
+          </label>
+          <label for="state">
+            Estado*:
+            <input name="state" id="state" placeholder="Nome da estado" required>
+          </label>
+        </div>
+        <div class="formGroup">
+          <label for="complement">
+            Complemento*:
+            <input name="complement" id="complement" placeholder="Complemento" required>
+          </label>
+          <label for="userType">
+            Número*:
+            <input name="number" id="number" placeholder="Número da casa/apt" required>
+          </label>
+        </div>
+        <div class="formGroup">
+          <label for="userType">
+            Tipo de usuário*:
+            <select name="userType" id="userType">
+              <option>Selecione uma opção</option>
+              <option value="Doador">Doador</option>
+              <option value="Ong">Ong</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="formButtons">
+          <button type="submit" id="submitButton">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+
+  <script src="./js/signup.js"></script>
+</body>
+
+</html>
